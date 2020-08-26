@@ -175,7 +175,7 @@ export default function Footer3() {
         <div className="container">
           <p>&copy; Copyrights eStartup. All rights reserved.</p>
           <div style={credits}>
-            Designed by <Link style={credits_a} to="https://bootstrapmade.com/">BootstrapMade</Link>
+            Designed by <Link style={credits_a} to="https://bootstrapmade.com/">PILCODE</Link>
           </div>
         </div>
       </div>

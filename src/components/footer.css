@@ -61,7 +61,7 @@ p {
 
 .footer {
   background: #2a2c30;
-  padding-top: 10px;
+  padding-top:0;
 }
 
 .footer .footer-logo .navbar-brand {
@@ -98,9 +98,9 @@ p {
 
 .footer .copyrights {
   background: #fff;
-  margin-top: 50px;
+  margin-top: 0px;
   text-align: center;
-  padding: 25px;
+  padding: 0px;
 }
 
 .footer .copyrights p, .footer .copyrights .credits {

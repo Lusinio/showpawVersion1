@@ -24,6 +24,7 @@ import GroupesMusicaux from './pages/groupesMusicaux'
 import Seminaires from './pages/seminaires'
 import AutresNews from './pages/autresNews'
 import BalPasse from './pages/balPassee'
+// import Apropos from './pages/Apropos'
 //import Footer from './components/Footer'
 import { Route, Switch } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -57,15 +58,16 @@ const  App=() =>{
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/bal-passe" component={BalPasse} />
-        <Route exact path="/bal"
-        render={(props) => <Bal {...props} data={data} />}
-       />
-        {/* <Route exact path="/bal" component={Bal} data={data}/> */}
-        <Route exact path="/apropos" component={Apropos} />
+        <Route path="/about-us" component={Apropos} />
+        <Route path="/home" component={Home} />
+        <Route path="/bal-passe" component={BalPasse} />
 
-        <Route exact path="/rapDj"
+        <Route path="/bal" render={(props) => <Bal {...props} data={data} />}
+       />
+        
+        <Route path="/apropos" component={Apropos} />
+
+        <Route path="/rapDj"
         render={(props) => <RapDj {...props} data={data} />}
        />
         {/* <Route exact path="/rapDj" component={RapDj} data={data} /> */}
@@ -95,12 +97,9 @@ const  App=() =>{
         <Route exact path="/groupesMusicaux" component={GroupesMusicaux} />
         <Route exact path="/seminaires" component={Seminaires} />
         <Route exact path="/autresNews" component={AutresNews} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/sponsors" component={Sponsors} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/sponsors" component={Sponsors} />
         
-
-
-
         <Route component={Error} />
       </Switch>
 

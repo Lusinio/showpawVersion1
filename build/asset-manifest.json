@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1de156da.chunk.css",
+    "main.js": "/static/js/main.9bca5638.chunk.js",
+    "main.js.map": "/static/js/main.9bca5638.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b5d1efea.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b5d1efea.js.map",
+    "static/js/2.69b4952a.chunk.js": "/static/js/2.69b4952a.chunk.js",
+    "static/js/2.69b4952a.chunk.js.map": "/static/js/2.69b4952a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c0a7d41b6ff30b6cc9c1efc93b9ba230.js": "/precache-manifest.c0a7d41b6ff30b6cc9c1efc93b9ba230.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1de156da.chunk.css.map": "/static/css/main.1de156da.chunk.css.map",
+    "static/media/Belo.jpeg": "/static/media/Belo.bc5d19f6.jpeg",
+    "static/media/Bic.jpeg": "/static/media/Bic.4298c948.jpeg",
+    "static/media/Desca.jpeg": "/static/media/Desca.e83315a3.jpeg",
+    "static/media/Ekip.jpeg": "/static/media/Ekip.d0139f15.jpeg",
+    "static/media/Enposib.jpeg": "/static/media/Enposib.fa3a6fad.jpeg",
+    "static/media/Fantom.jpeg": "/static/media/Fantom.6888fccc.jpeg",
+    "static/media/Kadilak.jpeg": "/static/media/Kadilak.2347795c.jpeg",
+    "static/media/Klass1.jpeg": "/static/media/Klass1.c90bbd2a.jpeg",
+    "static/media/Konpakreyol.jpeg": "/static/media/Konpakreyol.687be7f6.jpeg",
+    "static/media/Kreyolla.jpeg": "/static/media/Kreyolla.ba6df386.jpeg",
+    "static/media/hero.css": "/static/media/header-bg.5b97ffe2.jpg",
+    "static/media/micky.jpeg": "/static/media/micky.a2b923b1.jpeg",
+    "static/media/wyclef.jpeg": "/static/media/wyclef.e29bb039.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5d1efea.js",
+    "static/js/2.69b4952a.chunk.js",
+    "static/css/main.1de156da.chunk.css",
+    "static/js/main.9bca5638.chunk.js"
+  ]
+}

@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <>
       <Hero>
-        <Banner title="The Best Plateform Show in Haiti" subtitle="Tous les show">
-          <Button Link='/shows' name='Nos shows' />
+        <Banner title="The Best Plateform Show in Haiti" subtitle="Tous les shows">
+          {/* <Button Link='/shows' name='Nos shows' /> */}
         </Banner>
       </Hero>
     </>

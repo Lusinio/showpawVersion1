@@ -5,7 +5,7 @@ import Aproposs from '../components/Apropos'
 const Apropos = () => {
   return (
     <>
-      <Header title="Apropos de Nous" />
+      <Header title="A propos de Nous" />
       <Aproposs/>
       <Footer />
     </>

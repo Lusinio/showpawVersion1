@@ -9,7 +9,7 @@ export default function NavBar2() {
       <div className="container2" >
 
         <div id="logo" className="pull-left">
-          <h1><NavLink to="#body" className="scrollto"><span>show</span>PAW</NavLink></h1>
+          <h1><NavLink to="/" className="scrollto"><span>show</span>PAW</NavLink></h1>
         </div>
 
         <nav id="nav-menu-container">
@@ -22,8 +22,10 @@ export default function NavBar2() {
 								<Link className="dropdown-item" to="/festival">Festival </Link>
                 <Link className="dropdown-item" to="/comedie">Comedie </Link>
                 <Link className="dropdown-item" to="/foire">Froire </Link>
-                <Link className="dropdown-item" to="/seminaire">Seminaires </Link>
-                <Link className="dropdown-item" to="/autres">Autres </Link>
+                <Link className="dropdown-item" to="/seminaire">Seminaire </Link>
+                <Link className="dropdown-item" to="#">Conférence </Link>
+                <Link className="dropdown-item" to="#">Evangelique</Link>
+                <Link className="dropdown-item" to="#">Autres </Link>
 							</div>
 						</li>
 
@@ -36,7 +38,7 @@ export default function NavBar2() {
 
 
 
-          <li className="nav-item dropdown">
+          <li style={{pointerEvents:"none",opacity:"0.6"}} className="nav-item dropdown">
 							<Link className="nav-link dropdown-toggle" href="#" id="dropdown-Link" data-toggle="dropdown">Services </Link>
 							<div className="dropdown-menu" aria-labelledby="dropdown-Link">
 								<NavLink className="dropdown-item" to="/promotion">Promotion </NavLink>
@@ -73,8 +75,8 @@ export default function NavBar2() {
                 <NavLink className="dropdown-item" to="/autres">Autres </NavLink>
 							</div>
 						</li>
-          <li><NavLink style={{fontSize: "30px"}} activeClassName="menu-active" to="/contact">Contact</NavLink></li>
-          <li> <NavLink style={{fontSize: "30px"}} activeClassName="menu-active" to="/sponsors">Sponsors</NavLink></li>
+          <li><NavLink style={{fontSize: "20px"}} activeClassName="menu-active" to="/contact">Contacts</NavLink></li>
+          <li> <NavLink style={{fontSize: "20px"}} activeClassName="menu-active" to="/about-us">About US</NavLink></li>
             
             
             

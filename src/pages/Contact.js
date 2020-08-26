@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <>
-        <Header title="Contacté-Nous" />
+        <Header title="Contactez-Nous" />
         <ContactSection />
         <Footer />
       </>

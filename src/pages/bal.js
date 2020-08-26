@@ -15,7 +15,6 @@ const {data}=props
         <Header title="Nos Bals" />
         <br/>
         <Card data={data}/>
-        <br/>
         <Footer />
       </>
     )
